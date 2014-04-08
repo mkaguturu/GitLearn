@@ -4,6 +4,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
+//information added to see the diff in action
+
 namespace SDK.IT.Data.Domain.Business
 {
     public class DistributorMap : EntityTypeConfiguration<Distributor>
@@ -12,7 +14,7 @@ namespace SDK.IT.Data.Domain.Business
         {
             const string DESCRIMINATOR = "Changed the Descriminator";
 
-            ToTable("IT_Distributor");
+            //ToTable("IT_Distributor");
             HasKey(e => e.Id);
 
             Map<Entrepreneur>(m => m.Requires(DESCRIMINATOR).HasValue((int)DistributorType.Entrepreneur));
