@@ -1,4 +1,4 @@
 #Testing GitHub from GUI
 ======
 
-GitLearnFromGUI
+GitLearn
