@@ -17,6 +17,8 @@ namespace SDK.IT.Services.Business
         static readonly string CACHE_INFORMATIONSOURCE_TYPE_LIST = "IT_Cache_DistributorInformationSourceType_List";
         static readonly string CACHE_BUSINESS_TYPE_LIST = "IT_Cache_DistributorBusinessType_List";
         static readonly string CACHE_PAY_TYPE_LIST = "IT_Cache_DistributorPayType_List";
+		
+		static readonly string FROM_BRANCH_NEW = "IT_Cache_DistributorPayType_List";
 
         private readonly ICacheManager _cacheManager;
 
