@@ -1,8 +1,9 @@
+#For our project
+toignore/
+
 #################
 ## Eclipse
 #################
-
-toignore/images/*.jpg
 
 *.pydevproject
 .project
