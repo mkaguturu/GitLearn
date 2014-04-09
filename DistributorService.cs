@@ -12,6 +12,10 @@ using System.Web.Mvc;
 
 namespace SDK.IT.Services.Business
 {
+	public class MasterBranch
+	{
+		//making changes on the master while two new branches are used
+	}
     public class DistributorService:IDistributorService
     {
         static readonly string CACHE_INFORMATIONSOURCE_TYPE_LIST = "IT_Cache_DistributorInformationSourceType_List";
