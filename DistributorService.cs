@@ -16,7 +16,12 @@ namespace SDK.IT.Services.Business
 	{
 		//not sure right name. but we will do it any way.
 	}
-	
+
+	public class MasterBranch
+	{
+		//expect some conflicts now
+	}
+
     public class DistributorService:IDistributorService
     {
         static readonly string CACHE_INFORMATIONSOURCE_TYPE_LIST = "IT_Cache_DistributorInformationSourceType_List";
