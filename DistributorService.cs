@@ -14,7 +14,7 @@ namespace SDK.IT.Services.Business
 {
 	public class MasterBranch
 	{
-		//making changes on the master while two new branches are used
+		//expect some conflicts now
 	}
     public class DistributorService:IDistributorService
     {
