@@ -12,6 +12,11 @@ using System.Web.Mvc;
 
 namespace SDK.IT.Services.Business
 {
+	public class TaxNumbers
+	{
+		//not sure right name. but we will do it any way.
+	}
+	
     public class DistributorService:IDistributorService
     {
         static readonly string CACHE_INFORMATIONSOURCE_TYPE_LIST = "IT_Cache_DistributorInformationSourceType_List";
