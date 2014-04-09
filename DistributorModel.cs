@@ -12,7 +12,7 @@ using SDK.IT.Services.People;
 
 namespace SDK.ImmunoTech.Models.Business
 {
-    public class TypeListModelForConflict
+    public class TypeListModelFromNopCBranch
     {
         public int TypeId { get; set; }
 
